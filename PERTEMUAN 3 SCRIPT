@@ -1,0 +1,42 @@
+# repro-gamepro-4508-pertemuan3
+.
+.
+script 
+void update()
+{
+if(player.transform.position.x < transfrom.position.x){
+  transform.position = new Vector3(
+      transform.position.x - 3 * Time.deltaTime,
+      transform.position.y,
+      transform.position.z
+      );
+}
+if(player.transform.position.x < transfrom.position.x){
+  transform.position = new Vector3(
+      transform.position.x + 3 *TimedeltaTime,
+      transform.position.y,
+      transform.position.z
+      );
+ }
+ if(player.transform.position.x < transfrom.position.x){
+  transform.position = new Vector3(
+      transform.position.x,
+      transform.position.y - 3 * Time.deltaTime,
+      transform.position.z
+      );
+ }
+ if(player.transform.position.x < transfrom.position.x){
+  transform.position = new Vector3(
+      transform.position.x,
+      transform.position.y + 3 * Time.deltaTime,
+      transform.position.z
+      );
+  }
+   if(player.transform.position.x < transfrom.position.x){
+  transform.position = new Vector3(
+      transform.position.x,
+      transform.position.y,
+      transform.position.z - 3 * Time.deltaTime,
+      );
+  
+ 
